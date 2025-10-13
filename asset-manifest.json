@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tech-hive-world/static/css/main.a0ee2050.css",
-    "main.js": "/tech-hive-world/static/js/main.3e0bbac4.js",
+    "main.js": "/tech-hive-world/static/js/main.41027d33.js",
     "static/js/787.9501e6d0.chunk.js": "/tech-hive-world/static/js/787.9501e6d0.chunk.js",
     "static/media/background.png": "/tech-hive-world/static/media/background.b78397fbcee01381253a.png",
     "static/media/bottom1.png": "/tech-hive-world/static/media/bottom1.176b9e9fb21bad69d78d.png",
@@ -34,11 +34,11 @@
     "static/media/revicons.woff": "/tech-hive-world/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/tech-hive-world/index.html",
     "main.a0ee2050.css.map": "/tech-hive-world/static/css/main.a0ee2050.css.map",
-    "main.3e0bbac4.js.map": "/tech-hive-world/static/js/main.3e0bbac4.js.map",
+    "main.41027d33.js.map": "/tech-hive-world/static/js/main.41027d33.js.map",
     "787.9501e6d0.chunk.js.map": "/tech-hive-world/static/js/787.9501e6d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0ee2050.css",
-    "static/js/main.3e0bbac4.js"
+    "static/js/main.41027d33.js"
   ]
 }
