@@ -29,12 +29,12 @@
 }
 
 .custom_btn{
-  background-color: #ff4c0a !important;
-  border-radius: 0px !important;
+  background-color: #1877f2 !important;
+  border-radius: 8px !important;
   color: white !important;
 }
 .custom_btn:hover{
-  background-color: #ff4400 !important;
+  background-color: #145dbf !important;
 }
 
 .dropdown-toggle::after{

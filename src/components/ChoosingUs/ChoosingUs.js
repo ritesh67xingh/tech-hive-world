@@ -6,7 +6,7 @@ import comfort from '../../assets/home/comfort.png';
 
 const ChoosingUs = () =>{
     return(
-        <div style={{backgroundColor: '#fff1e5'}}>
+        <div style={{backgroundColor: '#d8e7fd'}}>
             <div className="container overflow-hidden">
                 <p data-aos='slide-right' data-aos-offset="220" className={styles.heading}>Top three the reason why you should choosing us.</p>
                 <p data-aos='slide-left' className={styles.sub_text}>The right mix of security, speed, and scalability.</p>
