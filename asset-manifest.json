@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/tech-hive-world/static/css/main.a0ee2050.css",
-    "main.js": "/tech-hive-world/static/js/main.41027d33.js",
+    "main.css": "/tech-hive-world/static/css/main.b8ffae63.css",
+    "main.js": "/tech-hive-world/static/js/main.1ab0053d.js",
     "static/js/787.9501e6d0.chunk.js": "/tech-hive-world/static/js/787.9501e6d0.chunk.js",
-    "static/media/background.png": "/tech-hive-world/static/media/background.b78397fbcee01381253a.png",
+    "static/media/background.png": "/tech-hive-world/static/media/background.bfb58721c5d822b76eaf.png",
     "static/media/bottom1.png": "/tech-hive-world/static/media/bottom1.176b9e9fb21bad69d78d.png",
     "static/media/banner.png": "/tech-hive-world/static/media/banner.c49a1c04e8a124531e68.png",
     "static/media/subBanner.jpg": "/tech-hive-world/static/media/subBanner.12d46bb4cc25f4f4abe2.jpg",
@@ -33,12 +33,12 @@
     "static/media/testimonial1.png": "/tech-hive-world/static/media/testimonial1.24ff453e9994676e2b62.png",
     "static/media/revicons.woff": "/tech-hive-world/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/tech-hive-world/index.html",
-    "main.a0ee2050.css.map": "/tech-hive-world/static/css/main.a0ee2050.css.map",
-    "main.41027d33.js.map": "/tech-hive-world/static/js/main.41027d33.js.map",
+    "main.b8ffae63.css.map": "/tech-hive-world/static/css/main.b8ffae63.css.map",
+    "main.1ab0053d.js.map": "/tech-hive-world/static/js/main.1ab0053d.js.map",
     "787.9501e6d0.chunk.js.map": "/tech-hive-world/static/js/787.9501e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0ee2050.css",
-    "static/js/main.41027d33.js"
+    "static/css/main.b8ffae63.css",
+    "static/js/main.1ab0053d.js"
   ]
 }
