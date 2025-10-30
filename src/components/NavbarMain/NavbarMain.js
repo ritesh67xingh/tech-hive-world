@@ -91,11 +91,12 @@ const NavbarMain = () => {
                 }
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Social Media Marketing</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Quality Assurance</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Cloud and IoT Based Solutions</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>IT Consultancy</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>AI Solutions</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/CloudInfrastructure" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Cloud Infrastructure Design & Deployment</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/cloudSecurity" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Cloud Security & Compliance</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/InfraAutomation" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Infrastructure as Code & Automation</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/MonitoringOperations" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Monitoring & Operations</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/KubernetesServerless" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Kubernetes & Serverless Solutions</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/InnovationPrototyping" onClick={() => {handleActiveNav(2); closeNav()}} className={styles.dropdownText}>Innovation & Prototyping</NavLink></NavDropdown.Item>
 
               </NavDropdown>
 

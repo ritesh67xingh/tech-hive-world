@@ -74,6 +74,37 @@
     color: #444554;
     width: 400px;
 }
+/* ====== FADE ANIMATION BASE ====== */
+.fadeTarget {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ====== Direction Variants ====== */
+.fadeLeft {
+  transform: translateX(-60px);
+}
+.fadeRight {
+  transform: translateX(60px);
+}
+.show.fadeLeft,
+.show.fadeRight {
+  transform: translateX(0);
+}
+/* ====== STAGGERED FADE DELAY ====== */
+.fadeTarget:nth-child(1) { transition-delay: 0.2s; }
+.fadeTarget:nth-child(2) { transition-delay: 0.4s; }
+.fadeTarget:nth-child(3) { transition-delay: 0.6s; }
+.fadeTarget:nth-child(4) { transition-delay: 0.8s; }
+.fadeTarget:nth-child(5) { transition-delay: 1s; }
+
+
 
 @media screen and (max-width: 1280px) {
     .topContain{

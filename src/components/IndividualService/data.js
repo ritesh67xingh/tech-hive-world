@@ -4,8 +4,8 @@ import seo2 from '../../assets/individualService/Image_2.png';
 const data = [
     {
         id: 1,
-        heading: 'SEO Service',
-        content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
+        heading: 'Cloud Infrastructure Design and Deployment',
+        content: 'We architect and build secure, scalable, and cost-optimized AWS foundations that are aligned with the AWS Well-Architected Framework and ready for growth.',
         contents: [
             {
                 heading: 'Get The Maximum Benefits',

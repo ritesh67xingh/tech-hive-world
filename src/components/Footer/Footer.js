@@ -23,11 +23,12 @@ const Footer = () =>{
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Services</p>
-                            <p className={styles.text}>Cloud Architecture & Migration</p>
-                            <p className={styles.text}>DevOps & CI/CD Automation</p>
-                            <p className={styles.text}>Kubernetes & Containerization</p>
+                            <p className={styles.text}>Cloud Infrastructure Design & Deployment</p>
                             <p className={styles.text}>Cloud Security & Compliance</p>
-                            <p className={styles.text}>Cost Optimization & Monitoring</p>
+                            <p className={styles.text}>Infrastructure as Code & Automation</p>
+                            <p className={styles.text}>Monitoring & operations</p>
+                            <p className={styles.text}>Kubernetes & Serverless Solutions</p>
+                            <p className={styles.text}>Innovation & Prototyping</p>
 
                         </div>
 

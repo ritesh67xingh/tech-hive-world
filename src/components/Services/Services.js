@@ -8,7 +8,7 @@ const Services = () => {
         <div className={`container ${styles.contain} overflow-hidden pb-2`}>
                 <p data-aos='slide-right' className={styles.heading}>Services</p>
             <div>
-                <p data-aos='slide-left' className={`mx-auto ${styles.subHeading}`}>We provide end-to-end cloud and DevOps solutions tailored for startups and enterprises to build secure, scalable, and cost-efficient platforms.</p>
+                <p data-aos='slide-left' className={`mx-auto ${styles.subHeading}`}>We deliver end-to-end cloud and DevOps solutions to build secure, scalable, and cost-efficient platforms.</p>
             </div>
 
             <div className={`row ${styles.cont}`}>
