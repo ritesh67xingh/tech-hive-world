@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import styles from './IndividualService.module.css';
 import { useLocation } from "react-router-dom";
 import data from './data';
-import timer from '../../assets/individualService/timer.png';
-import lock from '../../assets/individualService/tren.png';
-import det from '../../assets/individualService/det.png';
+import cloudperformance from '../../assets/individualService/cloudperformance.png';
+import certifiedcloud from '../../assets/individualService/certifiedcloud.png';
+import cloudstrategy from '../../assets/individualService/cloudstrategy.png';
 
 const IndividualService = () =>{
     const { search } = useLocation(); 
@@ -25,21 +25,21 @@ const IndividualService = () =>{
             
                 <div className="row">
                     <div className="col-md-4" data-aos='fade-right' data-aos-offset="150">
-                        <img src={timer} alt="" className={styles.img}/>
-                        <p className={styles.logo_head}>Speed Optimization</p>
-                        <p className={styles.heading_content}>Drink the Kool-aid shoot me an email nor thinking outside the box</p>
+                        <img src={cloudperformance} alt="" className={styles.img}/>
+                        <p className={styles.logo_head}>Cloud Performance Optimization</p>
+                        <p className={styles.heading_content}>Boost cloud speed, reliability, and efficiency through intelligent scaling and smart resource management.</p>
                     </div>
 
                     <div className="col-md-4" data-aos='fade' data-aos-offset="150">
-                        <img src={det} alt="" className={styles.img} />
-                        <p className={styles.logo_head}>Marketing Strategy</p>
-                        <p className={styles.heading_content}>Touch base nail jelly to the hothouse what about scaling components</p>
+                        <img src={cloudstrategy} alt="" className={styles.img} />
+                        <p className={styles.logo_head}>Cloud Strategy & Architecture</p>
+                        <p className={styles.heading_content}>Design and implement future-ready cloud architectures tailored precisely to your business goals and growth needs.</p>
                     </div>
 
                     <div className="col-md-4" data-aos='fade-left' data-aos-offset="150">
-                        <img src={lock} alt="" className={styles.img}/>
-                        <p className={styles.logo_head}>Experts Worker</p>
-                        <p className={styles.heading_content}>Parallel path it's a simple lift and shift the team pull in ten extra bodies </p>
+                        <img src={certifiedcloud} alt="" className={styles.img}/>
+                        <p className={styles.logo_head}>Certified Cloud Experts</p>
+                        <p className={styles.heading_content}>Work with AWS-certified professionals to ensure secure, scalable, and high-performing cloud environments.</p>
                     </div>
                 </div>
 
