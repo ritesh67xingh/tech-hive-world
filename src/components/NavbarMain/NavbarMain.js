@@ -3,6 +3,9 @@ import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import styles from "./NavbarMain.module.css";
 import { NavLink } from "react-router-dom";
 import { Link } from 'react-router-dom';
+import logo from "../../assets/logo.svg";
+
+
 const NavbarMain = () => {
 
   const [show, setShow] = useState(false);
@@ -52,9 +55,14 @@ const NavbarMain = () => {
         expanded={expand}
       >
         <Container>
-          <Navbar.Brand href="/" className={styles.logo}>
-            Tech Hive 
-          </Navbar.Brand>
+          <Navbar.Brand href="/" className={styles.logo} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+  <img 
+    src={logo} 
+    alt="Tech Hive World Logo" 
+    style={{ height: "70px", width: "90" }} 
+  />
+
+</Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

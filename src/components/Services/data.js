@@ -1,7 +1,12 @@
 import seo from '../../assets/home/seo.png';
-import web from '../../assets/home/web.png';
 import seo1 from '../../assets/individualService/Image.png';
 import seo2 from '../../assets/individualService/Image_2.png';
+import cloudsecurity from '../../assets/home/cloudsecurity.png';
+import infraAutomation from '../../assets/home/infraAutomation.png';
+import monitoringoperations from '../../assets/home/monitoringoperations.png';
+import kubernetesserverless from '../../assets/home/kubernetesserverless.png';
+import innovationprototyping from '../../assets/home/innovationprototyping.png';
+
 
 const data = [
     {
@@ -28,7 +33,7 @@ const data = [
         heading: 'Cloud Security & Compliance',
         content: 'We build secure, compliant AWS environments with tools like Wiz, Checkov, and GuardDuty for continuous protection.',
         to: '/',
-        icon: web,
+        icon: cloudsecurity,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -47,7 +52,7 @@ const data = [
         heading: 'Infrastructure as Code and Automation',
         content: 'We automate AWS provisioning with Terraform, CDK, and CI/CD for scalable, reliable, and fast deployments.',
         to: '/',
-        icon: seo,
+        icon: infraAutomation,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -66,7 +71,7 @@ const data = [
         heading: 'Monitoring & Operations',
         content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
         to: '/',
-        icon: seo,
+        icon: monitoringoperations,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -85,7 +90,7 @@ const data = [
         heading: 'Kubernetes & Serverless Solutions',
         content: 'We use Kubernetes and serverless to deliver scalable, cost-efficient cloud solutions.',
         to: '/',
-        icon: seo,
+        icon: kubernetesserverless,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
@@ -104,7 +109,7 @@ const data = [
         heading: 'Innovation & Prototyping',
         content: 'We turn ideas into cloud-ready prototypes fast — from streaming apps to secure APIs.',
         to: '/',
-        icon: seo,
+        icon: innovationprototyping,
         contents: [
             {
                 heading: 'Get The Maximum Benefits',
