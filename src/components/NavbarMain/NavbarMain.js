@@ -59,7 +59,7 @@ const NavbarMain = () => {
   <img 
     src={logo} 
     alt="Tech Hive World Logo" 
-    style={{ height: "70px", width: "90" }} 
+    style={{ height: "45px", width: "70" }} 
   />
 
 </Navbar.Brand>

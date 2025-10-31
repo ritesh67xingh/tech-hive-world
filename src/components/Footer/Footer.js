@@ -18,7 +18,7 @@ const Footer = () => {
                   src={logo}
                   alt="Tech Hive World"
                   className={styles.logoImg}
-                  style={{ width: "300px", height: "90px" }}
+                  style={{ width: "250px", height: "80px" }}
                 />
               </div>
               <p className={styles.text}>
