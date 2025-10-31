@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tech-hive-world/static/css/main.99e616ca.css",
-    "main.js": "/tech-hive-world/static/js/main.51524ef4.js",
+    "main.css": "/tech-hive-world/static/css/main.cb5131b1.css",
+    "main.js": "/tech-hive-world/static/js/main.f605c826.js",
     "static/js/787.9501e6d0.chunk.js": "/tech-hive-world/static/js/787.9501e6d0.chunk.js",
     "static/media/background.png": "/tech-hive-world/static/media/background.bfb58721c5d822b76eaf.png",
     "static/media/main.png": "/tech-hive-world/static/media/main.10e433cbbfe28177875b.png",
@@ -22,6 +22,7 @@
     "static/media/cloudsecurity1.png": "/tech-hive-world/static/media/cloudsecurity1.372b7f88afabc84cbc35.png",
     "static/media/kubernetes.png": "/tech-hive-world/static/media/kubernetes.ef210392b74b02fc70a3.png",
     "static/media/card.png": "/tech-hive-world/static/media/card.b97fede5d0b0c6476cb7.png",
+    "static/media/logo.svg": "/tech-hive-world/static/media/logo.3e111b103c2c10b1d0f838949b1a6582.svg",
     "static/media/bottom2.png": "/tech-hive-world/static/media/bottom2.b12dc36d8c11433e8dd1.png",
     "static/media/img1.png": "/tech-hive-world/static/media/img1.1478fa5dbc5762cbee6d.png",
     "static/media/img2.png": "/tech-hive-world/static/media/img2.134d2194fdb22ec573e5.png",
@@ -49,12 +50,12 @@
     "static/media/monitoringoperations.png": "/tech-hive-world/static/media/monitoringoperations.cfb6d690b9274bf5469b.png",
     "static/media/revicons.woff": "/tech-hive-world/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/tech-hive-world/index.html",
-    "main.99e616ca.css.map": "/tech-hive-world/static/css/main.99e616ca.css.map",
-    "main.51524ef4.js.map": "/tech-hive-world/static/js/main.51524ef4.js.map",
+    "main.cb5131b1.css.map": "/tech-hive-world/static/css/main.cb5131b1.css.map",
+    "main.f605c826.js.map": "/tech-hive-world/static/js/main.f605c826.js.map",
     "787.9501e6d0.chunk.js.map": "/tech-hive-world/static/js/787.9501e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99e616ca.css",
-    "static/js/main.51524ef4.js"
+    "static/css/main.cb5131b1.css",
+    "static/js/main.f605c826.js"
   ]
 }
