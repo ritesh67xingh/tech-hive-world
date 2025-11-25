@@ -1,0 +1,42 @@
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: overlayFade 0.3s ease-out;
+}
+
+.modalBox {
+  width: 90%;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  position: relative;
+  animation: popupShow 0.35s ease-out;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+/* animations */
+@keyframes overlayFade {
+  0% { opacity: 0; backdrop-filter: blur(0px); }
+  100% { opacity: 1; backdrop-filter: blur(3px); }
+}
+@keyframes popupShow {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}

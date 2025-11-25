@@ -130,3 +130,9 @@
     width: 100%;
   }
 }
+
+.text {
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none; 
+}

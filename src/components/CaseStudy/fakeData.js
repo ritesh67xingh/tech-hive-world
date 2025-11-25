@@ -2,49 +2,51 @@ import img1 from '../../assets/caseStudy/1.png';
 import img2 from '../../assets/caseStudy/2.png';
 import img3 from '../../assets/caseStudy/3.png';
 import img4 from '../../assets/caseStudy/4.png';
+import img5 from '../../assets/caseStudy/5.png';
+import img6 from '../../assets/caseStudy/6.png';
 
 const fakeData = [
     {
         id: 1,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'DevOps Engineer',
+        title: 'VPC Migration',
         img: img1,
-        category: 'financial'
+        
     },
     {
         id: 2,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Cloud Architect',
+        title: 'AWS Control Tower',
         img: img2,
-        category: 'human resources'
+        
     },
     {
         id: 3,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'FinOps Specialist',
+        title: 'Cloud Cost Optimization',
         img: img3,
-        category: 'start up'
+        
     },
     {
         id: 4,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'DevSecOps Engineer',
+        title: 'Preventive Security with Checkov for AWS',
         img: img4,
-        category: 'strategy'
+        
     },
     {
         id: 5,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
-        img: img1,
-        category: 'financial'
+        designation: 'DR & HA Specialist',
+        title: 'Multi-Region Disaster Recovery (DR) Blueprint',
+        img: img5,
+        
     },
     {
         id: 6,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
-        img: img2,
-        category: 'human resources'
+        designation: 'AWS Security Specialist',
+        title: 'Detective Security Controls Implementation',
+        img: img6,
+        
     }
 ]
 export default fakeData;

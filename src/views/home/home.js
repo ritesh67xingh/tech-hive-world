@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Banner from '../../components/Banner';
 import ChoosingUs from "../../components/ChoosingUs";
 import ServicesHome from "../../components/ServicesHome";
@@ -8,49 +8,59 @@ import Footer from "../../components/Footer";
 import AboutUsHome from "../../components/AboutUsHome";
 import Testimonial from "../../components/Testimonial";
 
+import ZohoFormModal from "../../components/ZohoFormModal/ZohoFormModal";
 
 const Home = () => {
+
+  const [showForm, setShowForm] = useState(false);
+
+  const openForm = () => setShowForm(true);
+  const closeForm = () => setShowForm(false);
+
   return (
     <>
-      {/* Banner Section  */}
+      {/* Banner Section */}
       <section>
-        <Banner />
+        <Banner openForm={openForm} />
       </section>
 
-      {/* About Us Section */}
-      <section>
-        <AboutUsHome />
-      </section>
-
-      {/* Why Choosing Us Section  */}
+      {/* Choosing Section */}
       <section>
         <ChoosingUs />
       </section>
-      
-      {/* Services Section  */}
+
+      {/* Services Section */}
       <section>
-        <ServicesHome />
+        <ServicesHome openForm={openForm} />
       </section>
 
-      {/* Case Study Section  */}
+      {/* Case Study */}
       <section>
         <CaseStudy />
       </section>
 
-      {/* Real Section  */}
+      {/* Real Section */}
       <section>
-        <Real />
+        <Real openForm={openForm} />
       </section>
 
-      {/* Testimonial Section  */}
+      {/* About Us Section */}
+      <section>
+        <AboutUsHome openForm={openForm} />
+      </section>
+
+      {/* Testimonial Section */}
       <section>
         <Testimonial />
       </section>
 
-      {/* Footer Section  */}
+      {/* Footer */}
       <section>
         <Footer />
       </section>
+
+      {/* GLOBAL POPUP */}
+      {showForm && <ZohoFormModal onClose={closeForm} />}
     </>
   );
 };
